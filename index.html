@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Intro to js</title>
+    <script>
+        function functionA() {
+            document.getElementById("sample").innerHTML="First script";
+
+        }
+    </script>
 </head>
 <body>
-<h1>Java script</h1>
+<h1 id="sample" >Java script</h1>
+<button onclick="functionA()">Click here</button>
 </body>
 </html>
